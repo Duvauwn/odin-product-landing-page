@@ -1,0 +1,66 @@
+/*header stuff*/
+.header.logo {
+    height: auto;
+    width: 80px;
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+.header.links {
+    margin-left:auto;
+    list-style: none;
+    gap: 10px;
+    color: white;
+}
+
+/*title stuff*/
+.title.pic {
+    height:auto;
+    width: 280px;
+}
+.title {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    gap: 20px;
+}
+.pic {
+    margin-left: auto;
+    padding: 20px;
+}
+
+/*info stuff*/
+.roast img {
+    height:auto;
+    width:180px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pics {
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.roast img {
+    border-radius: 10%;
+    border: 2px solid #3882F6;
+}
+.roast p {
+}
+
+/*testimonial stuff*/
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.person {
+    align-self: flex-end;
+}

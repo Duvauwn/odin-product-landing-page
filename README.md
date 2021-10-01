@@ -8,7 +8,20 @@ This project focuses on creating an actual page that is visually appealing and c
 
 # References
 
-[outcome](./odin-project.png)
+[outcome](./images/odin-project.png)
 
-[colors](./colors_and_stuff.png)
+[colors](./images/colors_and_stuff.png)
 
+# Image Sources
+
+[Photo by Toni Cuenca from Pexels](./images/pexels-toni-cuenca-585750.jpg)
+
+[https://www.freepnglogos.com/uploads/coffee-logo-png/coffee-logo-design-creative-idea-logo-elements-2.png](./images/coffee-logo.png)
+
+[Photo by Igor Haritanovich from Pexels](./roast1.jpg)
+
+[Getty Images](./roast2.jpg)
+
+[Photo by Polina Tankilevitch from Pexels](./roast3.jpg)
+
+[Photo by Tony Wu Photography 🇲🇲 from Pexels](./roast4.jpg)
