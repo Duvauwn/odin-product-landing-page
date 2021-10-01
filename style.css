@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
 /*header stuff*/
 .header.logo {
     height: auto;
@@ -6,12 +15,13 @@
 .header {
     display: flex;
     background-color: #1F2937;
+    justify-content:space-around;
 }
 .header.links {
-    margin-left:auto;
     list-style: none;
     gap: 10px;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 /*title stuff*/
@@ -22,7 +32,6 @@
 .title {
     display: flex;
     background-color: #1F2937;
-    color: white;
     justify-content: center;
     gap: 20px;
 }
@@ -30,29 +39,48 @@
     margin-left: auto;
     padding: 20px;
 }
+.title.actual {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.title.para {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.title button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #F9FAF8;
+}
 
 /*info stuff*/
-.roast img {
-    height:auto;
-    width:180px;
-}
 .info {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.real {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:800;
 }
 .pics {
     display:flex;
     gap:10px;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.roast img {
+.pics img {
+    height:auto;
+    width:160px;
     border-radius: 10%;
     border: 2px solid #3882F6;
 }
-.roast p {
-}
+
 
 /*testimonial stuff*/
 .testimonial {
@@ -60,7 +88,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.testimonial .they {
+    font-size: 36px;
+    font-weight:lighter;
+    color: #1F2937;
 }
 .person {
     align-self: flex-end;
+    flex: 0 1 auto;
+    color:#1F2937;
+    font-weight: bold;
+}
+/*action stuff*/
+.action {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 10px;;
+    gap: 20px;
+}
+.action h2 {
+    color:#F9FAF8;
+}
+.action p {
+    color:#E5E7EB;
+}
+.action button {
+    align-self:center;
+    padding:10px;
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+/*footer stuff*/
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
 }
