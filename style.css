@@ -6,16 +6,21 @@ html {
 }
 body {
     margin: 0;
+    background-color: #ac7f61;
+    display: flex;
+    flex-direction: column;
 }
 /*header stuff*/
 .header.logo {
     height: auto;
-    width: 80px;
+    width: 50px;
 }
 .header {
     display: flex;
-    background-color: #1F2937;
     justify-content:space-around;
+}
+.header.top {
+    background-image: linear-gradient(90deg, #0e244b, #1F2937);
 }
 .header.links {
     list-style: none;
@@ -29,11 +34,16 @@ body {
     height:auto;
     width: 280px;
 }
-.title {
+.title.big {
     display: flex;
-    background-color: #1F2937;
-    justify-content: center;
+    background-image: url("/home/duvauwn/the-odin-project/odin-product-landing-page/toni.jpg");
+    background-size: 100vw;
+    justify-content: space-around;
     gap: 20px;
+}
+.title.one {
+    display: flex;
+    align-items: flex-start;
 }
 .pic {
     margin-left: auto;
@@ -43,17 +53,20 @@ body {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+    text-align: left;
+    flex: 0 1 auto;
 }
 .title.para {
     color: #E5E7EB;
     font-size: 18px;
 }
 .title button {
-    background-color: #3882F6;
+    background-color: #0e244b;
     color: #E5E7EB;
     padding: 10px;
     border-radius: 8px;
     border: 1px solid #F9FAF8;
+    font-weight: bold;
 }
 
 /*info stuff*/
@@ -63,28 +76,33 @@ body {
     text-align: center;
     margin: 0;
     padding: 10px;
+    background-image: linear-gradient(90deg, #0e244b, #1F2937);
 }
 .real {
-    color: #1F2937;
+    color: #F9FAF8;
     font-size: 36px;
     font-weight:800;
 }
 .pics {
     display:flex;
     gap:10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .pics img {
     height:auto;
     width:160px;
     border-radius: 10%;
-    border: 2px solid #3882F6;
+    border: 1px solid #E5E7EB;
+}
+.pics p {
+    color: #E5E7EB;
 }
 
 
 /*testimonial stuff*/
 .testimonial {
-    background-color: #E5E7EB;
+    background-image: url("/home/duvauwn/the-odin-project/odin-product-landing-page/testimonial.jpg"), linear-gradient(90deg, #adbcda, #6e70dd);
+    background-size: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,12 +112,12 @@ body {
 .testimonial .they {
     font-size: 36px;
     font-weight:lighter;
-    color: #1F2937;
+    color: #E5E7EB;
 }
 .person {
     align-self: flex-end;
     flex: 0 1 auto;
-    color:#1F2937;
+    color:#E5E7EB;
     font-weight: bold;
 }
 /*action stuff*/
@@ -107,9 +125,11 @@ body {
     display: flex;
     margin: 20px;
     justify-content: center;
-    background-color: #3882F6;
+    background-image: linear-gradient(90deg, #0e244b, #1F2937);
     border-radius: 10px;;
     gap: 20px;
+    align-self: center;
+    padding: 20px;
 }
 .action h2 {
     color:#F9FAF8;
@@ -120,14 +140,15 @@ body {
 .action button {
     align-self:center;
     padding:10px;
-    background-color: #3882F6;
+    background-color: #0e244b;
     border: 1px solid #F9FAF8;
     border-radius: 8px;
     color: #E5E7EB;
+    font-weight: bold;
 }
 /*footer stuff*/
 .footer {
-    background-color: #1F2937;
+    background-image: linear-gradient(90deg, #0e244b, #1F2937);
     color: #E5E7EB;
     padding: 20px;
     text-align: center;

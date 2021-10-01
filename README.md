@@ -25,3 +25,7 @@ This project focuses on creating an actual page that is visually appealing and c
 [Photo by Polina Tankilevitch from Pexels](./roast3.jpg)
 
 [Photo by Tony Wu Photography 🇲🇲 from Pexels](./roast4.jpg)
+
+[Photo by MART PRODUCTION from Pexels](./testimonial.jpg)
+
+[Photo by Dominika Roseclay from Pexels](./heart.jpg)
